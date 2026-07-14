@@ -14,7 +14,7 @@ function App() {
     setError('');
     
     try {
-      const response = await fetch('http://localhost:3001/api/generate', {
+      const response = await fetch('http://ai-image-umber.vercel.app/api/generate', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
